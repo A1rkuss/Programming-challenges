@@ -136,7 +136,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="HelloWorld.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="passwordGenerator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="passwordGenerator.h" />
+    <ClInclude Include="Random.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
